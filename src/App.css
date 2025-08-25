@@ -14,3 +14,8 @@ select option {
   background-color: #0b224ecd; /* azul oscuro */
   color: white;                /* texto blanco */
 }
+
+select option:checked {
+  background-color: #0b224e; /* amarillo */
+  color: white;
+}
