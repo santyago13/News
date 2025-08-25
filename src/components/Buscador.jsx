@@ -37,6 +37,14 @@ const Buscador = () => {
                 <option value="terminada">Terminada</option>
               </select>
             </div>
+            <div className="mt-3">
+              <button
+                className="btn rounded-full border-none"
+                style={{ backgroundColor: "#0b224e2b" }}
+              >
+                Ver articulo completo
+              </button>
+            </div>
           </form>
         </div>
       </div>
