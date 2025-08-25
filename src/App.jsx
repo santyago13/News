@@ -1,4 +1,5 @@
 import Buscador from "./components/Buscador";
+import Footerr from "./components/Footerr";
 import Navbar from "./components/Navbar";
 
 function App() {
@@ -10,7 +11,9 @@ function App() {
       <main>
         <Buscador/>
       </main>
-      <footer></footer>
+      <footer>
+        <Footerr/>
+      </footer>
     </>
   );
 }
