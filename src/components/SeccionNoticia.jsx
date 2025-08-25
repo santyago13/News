@@ -13,7 +13,7 @@ const SeccionNoticia = ({ news = [] }) => {
 
   return (
     <section>
-      <div className="mb-10 vidrio mx-15 grid grid-cols-1 md:grid-cols-3 lg:grid-cols-4 gap-6 p-6 place-items-center">
+      <div className="mb-10 vidrio mx-5 grid grid-cols-1 md:grid-cols-3 lg:grid-cols-4 gap-6 p-6 place-items-center">
         {news.map((noticia, index) => (
           <CardNoticia 
             key={index}
