@@ -1,5 +1,5 @@
 .vidrio {
-    background: rgba(255, 255, 255, 0.019);
+    background-color: #0b224e2b;
     backdrop-filter: blur(12px);
     -webkit-backdrop-filter: blur(12px);
     border: 1px solid rgba(255, 255, 255, 0.2);
@@ -7,6 +7,10 @@
     box-shadow: 
         0 4px 30px rgba(0, 0, 0, 0.1),
         inset 0 1px 1px rgba(255, 255, 255, 0.1);
-    padding: 20px;
-    transition: all 0.3s ease;
+    transition: all 300ms ease;
+}
+
+select option {
+  background-color: #0b224ecd; /* azul oscuro */
+  color: white;                /* texto blanco */
 }
