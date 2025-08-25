@@ -4,7 +4,7 @@ const Navbar = () => {
   const [menuOpen, setMenuOpen] = useState(false);
 
   return (
-    <nav className="shadow-xl vidrio py-4">
+    <nav className="shadow-xl ">
       <div className="container mx-auto flex flex-col lg:flex-row lg:justify-between lg:items-center p-4">
         <div className="flex justify-between items-center">
           {/* Logo con SVG */}
