@@ -1,12 +1,37 @@
-# React + Vite
+# 📰 Buscador de Noticias con React
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
-Currently, two official plugins are available:
+Este proyecto es una aplicación web que permite buscar noticias por país y categoría usando la API de [NewsData](https://newsdata.io/).  
+Se construyó con **React**, y utiliza **Tailwind CSS** y **DaisyUI** para el diseño, además de **SweetAlert2** para notificaciones.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
 
-## Expanding the ESLint configuration
+---
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+👉 Podés ver el proyecto en vivo acá:  
+[🔗 Ver aplicación desplegada](https://newsreactt.netlify.app/)  
+
+---
+
+## 🚀 Funcionalidades
+
+- Selección de **país** y **categoría** para filtrar noticias.
+- Búsqueda y visualización de noticias en tiempo real.
+- Manejo de errores con notificaciones visuales.
+- Cards estilizadas para mostrar cada noticia (título, descripción, imagen y enlace al artículo completo).
+
+---
+
+## 📦 Tecnologías utilizadas
+
+- **React**: Librería de JavaScript para construir interfaces.
+- **Tailwind CSS**: Framework de CSS para estilos rápidos y responsivos.
+- **DaisyUI**: Componentes UI basados en Tailwind.
+- **SweetAlert2**: Para mostrar alertas y notificaciones bonitas.
+- **NewsData API**: Fuente de noticias.
+- **JavaScript ES6+**: Lógica de la aplicación.
+
+---
+
+## 👨‍💻 Autor
+
+- **Nombre:** Robledo Garrido Santiago Andrés
